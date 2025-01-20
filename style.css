@@ -1,0 +1,92 @@
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.calculator{
+    background-color: #000000;
+    width: 20rem;
+    height: 30rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.input{
+    width: 100%;
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    vertical-align: top;
+}
+
+.main-output{
+    width: 100%;
+}
+
+.output{
+    width: 100%;
+}
+
+.input input{
+    background-color: #000000;
+    text-align: end;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: default;
+}
+
+.main-output input{
+    font-size: xx-large;
+    position: relative;
+    left: .8rem;
+    color: #fefefe;
+}
+
+.main-output input::placeholder{
+    color: #fefefe;
+}
+
+.output input{
+    font-size: large;
+    position: relative;
+    left: .6rem;
+    bottom: .4rem;
+    color: #7c7c7c;
+    font-weight: 500;
+}
+
+.calculator button{
+    font-size: large;
+    width: 4rem;
+    height: 3.2rem;
+    border: 0;
+    border-radius: 1.6rem;
+    margin: 0rem .33rem;
+    cursor: pointer;
+}
+
+.grey-btn{
+    background-color: #303030;
+    color: #fefefe;
+}
+
+.blue-btn{
+    background-color: #384959;
+    color: #88cbff;
+}
+
+.light-blue-btn{
+    background-color: #88cbff;
+    color: #fefefe;
+}
+
+.ac{
+    width: 18rem !important;
+}
