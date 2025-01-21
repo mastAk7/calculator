@@ -72,6 +72,10 @@
     cursor: pointer;
 }
 
+.calculator button:hover{
+    opacity: 80%;
+}
+
 .grey-btn{
     background-color: #303030;
     color: #fefefe;
@@ -88,5 +92,5 @@
 }
 
 .ac{
-    width: 18rem !important;
+    width: 8.6rem !important;
 }
